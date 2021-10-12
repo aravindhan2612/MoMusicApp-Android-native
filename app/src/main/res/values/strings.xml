@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JSMusicApp</string>
+    <string name="js_music_player_app"> js music player app</string>
+    <string name="please_wait">Please wait</string>
+</resources>
