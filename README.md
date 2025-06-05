@@ -26,4 +26,4 @@ A simple Android music app developed to learn and explore android media componen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sample-music-app.git
+   git clone https://github.com/aravindhan2612/MoMusicApp-Android-native.git
