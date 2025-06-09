@@ -1,4 +1,4 @@
-# 🎵 Sample Music App (Android)
+# 🎵 MoMusic App (Android)
 
 A simple Android music app developed to learn and explore android media component. This app showcases a list of music tracks and a media player screen to play selected music.
 
