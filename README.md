@@ -14,13 +14,13 @@ A simple Android music app developed to learn and explore android media componen
 
 - **Language**: Java / Kotlin (whichever applies)
 - **UI Components**:
-  - `androidx.recyclerview:recyclerview:1.2.1`
-  - `androidx.cardview:cardview:1.0.0`
+  - `androidx.recyclerview:recyclerview`
+  - `androidx.cardview:cardview`
 - **Loading Animation**:
-  - `com.facebook.shimmer:shimmer:0.5.0`
-  - `com.todkars:shimmer-recyclerview:0.4.1`
+  - `com.facebook.shimmer:shimmer`
+  - `com.todkars:shimmer-recyclerview`
 - **GIF Support**:
-  - `pl.droidsonroids.gif:android-gif-drawable:1.2.22`
+  - `pl.droidsonroids.gif:android-gif-drawable`
 
 ## 🚀 Getting Started
 
