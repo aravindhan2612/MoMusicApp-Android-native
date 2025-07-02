@@ -12,7 +12,7 @@ A simple Android music app developed to learn and explore android media componen
 
 ## 🛠️ Tech Stack & Libraries
 
-- **Language**: Java / Kotlin (whichever applies)
+- **Language**: Kotlin
 - **UI Components**:
   - `androidx.recyclerview:recyclerview`
   - `androidx.cardview:cardview`
