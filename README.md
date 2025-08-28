@@ -16,9 +16,6 @@ A simple Android music app developed to learn and explore android media componen
 - **UI Components**:
   - `androidx.recyclerview:recyclerview`
   - `androidx.cardview:cardview`
-- **Loading Animation**:
-  - `com.facebook.shimmer:shimmer`
-  - `com.todkars:shimmer-recyclerview`
 - **GIF Support**:
   - `pl.droidsonroids.gif:android-gif-drawable`
 

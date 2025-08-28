@@ -83,7 +83,6 @@ class MainFragment : Fragment() {
             mainFragmentBinding.grantAccessBtn.visibility = View.GONE
             mainFragmentBinding.grantAccessDesc.visibility = View.GONE
             mainFragmentBinding.songRecyclerView.visibility = View.VISIBLE
-            //showOrHideProgress(View.VISIBLE)
             showShimmerEffect()
             viewModel?.initSongs(mainActivity, this)
         } else {
@@ -93,15 +92,10 @@ class MainFragment : Fragment() {
 
     private fun showShimmerEffect() {
         mainFragmentBinding.songRecyclerView.setLayoutManager(
-            LinearLayoutManager(mainActivity),
-            R.layout.song_view_item
+            LinearLayoutManager(mainActivity)
         )
-        mainFragmentBinding.songRecyclerView.showShimmer()
     }
 
-    private fun hideShimmerEffect() {
-        mainFragmentBinding.songRecyclerView.hideShimmer()
-    }
 
     private fun setAdapter(songList: ArrayList<Song>) {
         songAdapter = SongAdapter(mainActivity, songList, this)
@@ -171,8 +165,6 @@ class MainFragment : Fragment() {
     }
 
     private var songlistObesever = Observer<ArrayList<Song>> { songList ->
-        //showOrHideProgress(View.GONE)
-        hideShimmerEffect()
         songList?.let {
             setAdapter(it)
         }
